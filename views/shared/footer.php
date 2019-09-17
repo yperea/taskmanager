@@ -1,6 +1,6 @@
       <hr class="mb-4">
       <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2017-2018 Yesid Perea - Advanced PHP Spring 2018</p>
+        <p class="mb-1">&copy; 2017-2018 YP Projects</p>
       </footer>
     </div>
 
