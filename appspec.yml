@@ -8,9 +8,6 @@ hooks:
     - location: scripts/stop_server
       timeout: 300
       runas: root
-  AfterInstall:
-    - location: scripts/sql_commands
-      timeout: 300
   ApplicationStart:
     - location: scripts/start_server
       timeout: 300

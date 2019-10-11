@@ -53,7 +53,7 @@
                             id="description"
                             name="description"
                             placeholder="Task description..."
-                            value="<?=!empty($description)? $description : "";?>"
+                            value="<?=!empty($description)? xssEcho($description) : "";?>"
                             />
                     <div class="invalid-feedback" style="width: 100%;">
                         Please enter a description for the task.

@@ -18,7 +18,7 @@
             <?php foreach ($model as $task) : ?>
                 <tr>
                 <th scope="row"><?= $task->id;?></th>
-                <td><?= $task->description;?></td>
+                <td><?= xssEcho($task->description);?></td>
                 <td class="text-center"><a href="/<?=HOST?>tasks/update/id=<?= $task->id;?>">Edit</a></td>
                 <td class="text-center"><a href="/<?=HOST?>tasks/delete/id=<?= $task->id;?>">Delete</a></td>
                 </tr>

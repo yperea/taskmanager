@@ -52,7 +52,7 @@
             <li class="nav-item"><a class="nav-link" href="/<?=HOST."account"?>/login"> Login</a></li>
           <?php else : ?>
             <li class="nav-item"><a class="nav-link" href="/<?=HOST."account"?>/apikey"> API Key</a></li>          
-            <li class="nav-item"><a class="nav-link" href="/<?=HOST."account"?>/logout"> Log Out (<?= $_SESSION['userName']?>)</a></li>          
+            <li class="nav-item"><a class="nav-link" href="/<?=HOST."account"?>/logout"> Log Out (<?= xssEcho($_SESSION['userName'])?>)</a></li>
           <?php endif; ?>
         </ul>        
       </div>

@@ -7,6 +7,16 @@
       <excludeFolder url="file://$MODULE_DIR$/composer/vendor/guzzlehttp/guzzle" />
       <excludeFolder url="file://$MODULE_DIR$/composer/vendor/guzzlehttp/promises" />
       <excludeFolder url="file://$MODULE_DIR$/composer/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/htmlpurifier/art" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/htmlpurifier/benchmarks" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/htmlpurifier/configdoc" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/htmlpurifier/docs" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/htmlpurifier/extras" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/htmlpurifier/library" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/htmlpurifier/maintenance" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/htmlpurifier/plugins" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/htmlpurifier/smoketests" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/htmlpurifier/tests" />
       <excludeFolder url="file://$MODULE_DIR$/composer/vendor/psr/http-message" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />

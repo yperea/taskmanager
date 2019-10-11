@@ -1,4 +1,4 @@
-<?php 
+<?php
     $title = "Tasks Statistics";
     require_once("views/shared/header.php");
 ?>
@@ -20,7 +20,8 @@
             <tbody>
             <?php foreach ($model as $task) : ?>
                 <tr>
-                    <th scope="row"><?= $task->username;?></th>
+                    <!--<th scope="row"><?/*= htmlspecialchars($task->username, ENT_QUOTES, 'UTF-8');*/?></th>-->
+                    <th scope="row"><?= xssEcho($task->username)?></th>
                     <td><?= $task->create_counter;?></td>
                     <td><?= $task->read_counter;?></td>
                     <td><?= $task->readall_counter;?></td>

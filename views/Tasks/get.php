@@ -54,7 +54,7 @@
                         id="description"
                         name="description"
                         placeholder="Task description..."
-                        value="<?=!empty($description)? $description : "";?>"
+                        value="<?=!empty($description)? xssEcho($description) : "";?>"
                         readonly />
             </div>
 
